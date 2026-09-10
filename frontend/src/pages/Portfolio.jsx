@@ -73,7 +73,7 @@ export default function Portfolio() {
             <div className="hero-copy">
               <div className="hero-tech-image">
                 <img
-                   src="/images/code%20image.png"
+                   src={`${import.meta.env.BASE_URL}images/code%20image.png`}
                    alt=""
                  />
             </div>
@@ -99,7 +99,7 @@ export default function Portfolio() {
 
             <aside className="hero-panel">
               <img
-                src="/images/profile.jpg"
+                src={`${import.meta.env.BASE_URL}images/profile.jpg`}
                 alt="Arul Florinda D"
                 className="profile-image"
               />
